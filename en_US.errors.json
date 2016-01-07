@@ -1,45 +1,3 @@
-Malemben
-====
-
-## Synopsis
-
-Malemben provides you a structure for all your status code. Very useful when you can't use RESTful with your API.
-
-## Malemben structure
-
-A error code must be construct with this following model : 
-
-| Structure of Malemben |             |       |       |       |
-|:---------------------:|:-----------:|:-----:|:-----:|:-----:|
-|   Abstract Stucture   |  Character  | Digit | Digit | Digit |
-|     Signification     | Level error |   ID  |   ID  |   ID  |
-|        Example        |      W      |   1   |   5   |   2   |
-
-4 levels of error : 
-
-- **C**ritical
-- **W**arning
-- **I**nformation
-- **S**uccess
-
-3 digits for the identifications : 
-
-**Warning** : The first digit must be different of 0. This restriction prevents all humans errors for the futur.
-
-Example : 
-
-- 125
-- 409
-
-## Language & file
-
-One rule : 1 file = 1 language 
-
-Per example : 
-
-en_US.errors.json
-
-````json
 {
     "C" :
     {
@@ -90,4 +48,3 @@ en_US.errors.json
         }
     }
 }
-````
