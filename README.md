@@ -1,5 +1,7 @@
-Malemben
-====
+<p align="center">
+  <img src="http://i.imgur.com/tvjPERO.png" alt="Malemben_logo"/>
+</p>
+
 
 ## Synopsis
 
